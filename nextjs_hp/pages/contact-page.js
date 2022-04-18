@@ -1,7 +1,7 @@
-const Contact = () => {
-  return (
-    <div>Contact page</div>
-  )
-}
+import Layout from "../components/Layout";
 
-export default contact-page
+const Contact = () => {
+    return <Layout title='Contact'>Contact</Layout>;
+};
+
+export default Contact;
